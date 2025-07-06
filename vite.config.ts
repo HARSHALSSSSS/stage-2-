@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     rollupOptions: {
-      external: ['react-is']
+      // Remove external dependencies that aren't needed
     }
   },
 }));
